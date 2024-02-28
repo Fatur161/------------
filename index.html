@@ -1,0 +1,716 @@
+<!DOCTYPE html>
+<html lang="ru">
+  <head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+
+    <title>По смартфону</title>
+
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:400,500,700"
+      rel="stylesheet"
+    />
+
+    <link type="text/css" rel="stylesheet" href="css/bootstrap.min.css" />
+
+    <link type="text/css" rel="stylesheet" href="css/slick.css" />
+    <link type="text/css" rel="stylesheet" href="css/slick-theme.css" />
+
+    <link type="text/css" rel="stylesheet" href="css/nouislider.min.css" />
+
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+
+    <link type="text/css" rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <header>
+      <div id="top-header">
+        <div class="container">
+          <ul class="header-links pull-left">
+            <li>
+              <a href="#"><i class="fa fa-phone"></i>+7 963-430-54-33</a>
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-envelope-o"></i>posmartphony@email.com</a
+              >
+            </li>
+            <li>
+              <a href="#"
+                ><i class="fa fa-map-marker"></i> г. Ростов-на-Дону ул.
+                Красноармейская</a
+              >
+            </li>
+          </ul>
+          <ul class="header-links pull-right">
+            <li>
+              <a href="./auth.html"><i class="fa fa-user-o"></i>Вход</a>
+            </li>
+            <li>
+              <span>/</span>
+            </li>
+            <li>
+              <a href="./regisrt.html">Регистрация</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+
+      <div id="header">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3">
+              <div class="header-logo">
+                <a href="./index.html" class="logo">
+                  <img src="./img/new-logoo.png" alt="" />
+                </a>
+              </div>
+            </div>
+
+            <div class="col-md-6">
+              <div class="header-search">
+                <form>
+                  <input class="input" placeholder="Введите имя товара" />
+                  <button class="search-btn">Поиск</button>
+                </form>
+              </div>
+            </div>
+
+            <div class="col-md-3 clearfix">
+              <div class="header-ctn">
+                <div>
+                  <a href="./wishlist.html">
+                    <i class="fa fa-heart-o"></i>
+                    <span>Избранное</span>
+                    <div id="wishl" class="qty none">0</div>
+                  </a>
+                </div>
+
+                <div class="dropdown">
+                  <a href="checkout.html">
+                    <i class="fa fa-shopping-cart"></i>
+                    <span>Корзина</span>
+                    <div id="cartVal" class="qty none">0</div>
+                  </a>
+                  <div class="cart-dropdown">
+                    <div class="cart-list">
+                      <div class="product-widget">
+                        <div class="product-img">
+                          <img src="./img/product01.png" alt="" />
+                        </div>
+                        <div class="product-body">
+                          <h3 class="product-name">
+                            <a href="#">product name goes here</a>
+                          </h3>
+                          <h4 class="product-price">
+                            <span class="qty">1x</span>$980.00
+                          </h4>
+                        </div>
+                        <button class="delete">
+                          <i class="fa fa-close"></i>
+                        </button>
+                      </div>
+
+                      <div class="product-widget">
+                        <div class="product-img">
+                          <img src="./img/product02.png" alt="" />
+                        </div>
+                        <div class="product-body">
+                          <h3 class="product-name">
+                            <a href="#">product name goes here</a>
+                          </h3>
+                          <h4 class="product-price">
+                            <span class="qty">3x</span>$980.00
+                          </h4>
+                        </div>
+                        <button class="delete">
+                          <i class="fa fa-close"></i>
+                        </button>
+                      </div>
+                    </div>
+                    <div class="cart-summary">
+                      <small>3 Item(s) selected</small>
+                      <h5>SUBTOTAL: $2940.00</h5>
+                    </div>
+                    <div class="cart-btns">
+                      <a href="#">View Cart</a>
+                      <a href="#"
+                        >Checkout <i class="fa fa-arrow-circle-right"></i
+                      ></a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="menu-toggle">
+                  <a href="#">
+                    <i class="fa fa-bars"></i>
+                    <span>Меню</span>
+                  </a>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <nav id="navigation">
+      <div class="container">
+        <div id="responsive-nav">
+          <ul class="main-nav nav navbar-nav">
+            <li class="active"><a href="./index.html">Главная</a></li>
+            <li><a href="./best-choice.html">Лучшие предложения</a></li>
+            <li><a href="#">Продажа телефона</a></li>
+            <li><a href="./china.html">Китай</a></li>
+            <li><a href="./vietnam.html">Вьетнам</a></li>
+            <li><a href="./gruzia.html">Грузия</a></li>
+            <li><a href="./acsessuar.html">Аксессуары</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <section class="hero-section">
+      <div class="container">
+        <div class="hero-section__inner">
+          <div class="left-side">
+            <h2>По смартфону</h2>
+            <span>Смартфоны из зарубежа по лучшим ценам!</span>
+          </div>
+          <div class="right-side">
+            <img class="right-side__img" src="./img/P2PEGZ0w.png" alt="" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title">
+              <h3 class="title">Новые поставки</h3>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="row">
+              <div class="products-tabs">
+                <div id="tab1" class="tab-pane active">
+                  <div class="products-slick" data-nav="#slick-nav-1">
+                    <div class="product">
+                      <div class="product-img">
+                        <img src="./img/iphone14.png" alt="" />
+                        <div class="product-label">
+                          <span class="sale">-30%</span>
+                          <span class="new">NEW</span>
+                        </div>
+                      </div>
+                      <div class="product-body">
+                        <p class="product-category">Вьетнам</p>
+                        <h3 class="product-name">
+                          <a href="./product.html">Iphone 14 pro</a>
+                        </h3>
+                        <h4 class="product-price">
+                          95.000₽ <del class="product-old-price">120.000₽</del>
+                        </h4>
+                        <div class="product-rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                        <div class="product-btns">
+                          <button class="add-to-wishlist" onclick="clickWish()">
+                            <i class="fa fa-heart-o"></i
+                            ><span class="tooltipp">Добавить в избранное</span>
+                          </button>
+                          <button class="quick-view">
+                            <i class="fa fa-eye"></i
+                            ><span class="tooltipp">Посмотреть</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="add-to-cart">
+                        <button class="add-to-cart-btn" onclick="clickCart()">
+                          <i class="fa fa-shopping-cart"></i> В корзину
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <div class="product-img">
+                        <img src="./img/samsungs22w.png" alt="" />
+                        <div class="product-label">
+                          <span class="sale">-30%</span>
+                          <span class="new">NEW</span>
+                        </div>
+                      </div>
+                      <div class="product-body">
+                        <p class="product-category">Грузия</p>
+                        <h3 class="product-name">
+                          <a href="./product.html">Samsung s23</a>
+                        </h3>
+                        <h4 class="product-price">
+                          85.000₽ <del class="product-old-price">99.000₽</del>
+                        </h4>
+                        <div class="product-rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                        <div class="product-btns">
+                          <button class="add-to-wishlist" onclick="clickWish()">
+                            <i class="fa fa-heart-o"></i
+                            ><span class="tooltipp">Добавить в избранное</span>
+                          </button>
+                          <button class="quick-view">
+                            <i class="fa fa-eye"></i
+                            ><span class="tooltipp">Посмотреть</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="add-to-cart">
+                        <button class="add-to-cart-btn" onclick="clickCart()">
+                          <i class="fa fa-shopping-cart"></i> В корзину
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <div class="product-img">
+                        <img src="./img/tehcno.jpg" alt="" />
+                        <div class="product-label">
+                          <span class="sale">-30%</span>
+                          <span class="new">NEW</span>
+                        </div>
+                      </div>
+                      <div class="product-body">
+                        <p class="product-category">Китай</p>
+                        <h3 class="product-name">
+                          <a href="./product.html">Tecno CAMON 20</a>
+                        </h3>
+                        <h4 class="product-price">
+                          25.000₽ <del class="product-old-price">35.000₽</del>
+                        </h4>
+                        <div class="product-rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-o"></i>
+                          <i class="fa fa-star-o"></i>
+                        </div>
+                        <div class="product-btns">
+                          <button class="add-to-wishlist" onclick="clickWish()">
+                            <i class="fa fa-heart-o"></i
+                            ><span class="tooltipp">Добавить в избранное</span>
+                          </button>
+                          <button class="quick-view">
+                            <i class="fa fa-eye"></i
+                            ><span class="tooltipp">Посмотреть</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="add-to-cart">
+                        <button class="add-to-cart-btn" onclick="clickCart()">
+                          <i class="fa fa-shopping-cart"></i> В корзину
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <div class="product-img">
+                        <img src="./img/realme.jpg" alt="" />
+                        <div class="product-label">
+                          <span class="sale">-30%</span>
+                          <span class="new">NEW</span>
+                        </div>
+                      </div>
+                      <div class="product-body">
+                        <p class="product-category">Китай</p>
+                        <h3 class="product-name">
+                          <a href="#">Realme note 50</a>
+                        </h3>
+                        <h4 class="product-price">
+                          16.000₽ <del class="product-old-price">24.000₽</del>
+                        </h4>
+                        <div class="product-rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star-0"></i>
+                        </div>
+                        <div class="product-btns">
+                          <button class="add-to-wishlist" onclick="clickWish()">
+                            <i class="fa fa-heart-o"></i
+                            ><span class="tooltipp">Добавить в избранное</span>
+                          </button>
+                          <button class="quick-view">
+                            <i class="fa fa-eye"></i
+                            ><span class="tooltipp">Посмотреть</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="add-to-cart">
+                        <button class="add-to-cart-btn" onclick="clickCart()">
+                          <i class="fa fa-shopping-cart"></i> В корзину
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <div class="product-img">
+                        <img src="./img/xiaomi-mi-11-lite.jpg" alt="" />
+                        <div class="product-label">
+                          <span class="sale">-30%</span>
+                          <span class="new">NEW</span>
+                        </div>
+                      </div>
+                      <div class="product-body">
+                        <p class="product-category">Китай</p>
+                        <h3 class="product-name">
+                          <a href="#">Xiaomi mi 11 lite</a>
+                        </h3>
+                        <h4 class="product-price">
+                          22.000₽ <del class="product-old-price">29.000₽</del>
+                        </h4>
+                        <div class="product-rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                        <div class="product-btns">
+                          <button class="add-to-wishlist" onclick="clickWish()">
+                            <i class="fa fa-heart-o"></i
+                            ><span class="tooltipp">Добавить в избранное</span>
+                          </button>
+                          <button class="quick-view">
+                            <i class="fa fa-eye"></i
+                            ><span class="tooltipp">Посмотреть</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="add-to-cart">
+                        <button class="add-to-cart-btn" onclick="clickCart()">
+                          <i class="fa fa-shopping-cart"></i> В корзину
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="slick-nav-1" class="products-slick-nav"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- Products tab & slick -->
+        </div>
+        <!-- /row -->
+      </div>
+      <!-- /container -->
+    </section>
+
+    <section id="hot-deal" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="hot-deal">
+              <ul class="hot-deal-countdown">
+                <li>
+                  <div>
+                    <h3 class="t_days">02</h3>
+                    <span>Дни</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h3 class="t_hours">10</h3>
+                    <span>Часы</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h3 class="t_minutes">34</h3>
+                    <span>Минуты</span>
+                  </div>
+                </li>
+                <li>
+                  <div>
+                    <h3 class="t_sec">60</h3>
+                    <span>Секунды</span>
+                  </div>
+                </li>
+              </ul>
+              <h2 class="text-uppercase">Цена выгоднее до 30%!</h2>
+              <p>Скидки на ревизии с Вьетнама</p>
+              <a class="primary-btn cta-btn" href="#">Перейти</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="section-title">
+              <h3 class="title">Популярно сейчас</h3>
+            </div>
+          </div>
+
+          <div class="col-md-12">
+            <div class="row">
+              <div class="products-tabs">
+                <div id="tab2" class="tab-pane fade in active">
+                  <div class="products-slick" data-nav="#slick-nav-2">
+                    <div class="product">
+                      <div class="product-img">
+                        <img src="./img/pod.jpg" alt="" />
+                        <div class="product-label">
+                          <span class="sale">-30%</span>
+                        </div>
+                      </div>
+                      <div class="product-body">
+                        <p class="product-category">Вьетнам</p>
+                        <h3 class="product-name">
+                          <a href="#">Подставка универсальная</a>
+                        </h3>
+                        <h4 class="product-price">
+                          250₽ <del class="product-old-price">500₽</del>
+                        </h4>
+                        <div class="product-rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                        <div class="product-btns">
+                          <button class="add-to-wishlist" onclick="clickWish()">
+                            <i class="fa fa-heart-o"></i
+                            ><span class="tooltipp">Добавить в избранное</span>
+                          </button>
+                          <button class="quick-view">
+                            <i class="fa fa-eye"></i
+                            ><span class="tooltipp">Посмотреть</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="add-to-cart">
+                        <button class="add-to-cart-btn" onclick="clickCart()">
+                          <i class="fa fa-shopping-cart"></i> В корзину
+                        </button>
+                      </div>
+                    </div>
+                    <div class="product">
+                      <div class="product-img">
+                        <img src="./img/a32.jpg" alt="" />
+                        <div class="product-label">
+                          <span class="sale">-30%</span>
+                        </div>
+                      </div>
+                      <div class="product-body">
+                        <p class="product-category">Вьетнам</p>
+                        <h3 class="product-name">
+                          <a href="#">Samsung a32</a>
+                        </h3>
+                        <h4 class="product-price">
+                          15.500₽ <del class="product-old-price">20.500₽</del>
+                        </h4>
+                        <div class="product-rating">
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                          <i class="fa fa-star"></i>
+                        </div>
+                        <div class="product-btns">
+                          <button class="add-to-wishlist" onclick="clickWish()">
+                            <i class="fa fa-heart-o"></i
+                            ><span class="tooltipp">Добавить в избранное</span>
+                          </button>
+                          <button class="quick-view">
+                            <i class="fa fa-eye"></i
+                            ><span class="tooltipp">Посмотреть</span>
+                          </button>
+                        </div>
+                      </div>
+                      <div class="add-to-cart">
+                        <button class="add-to-cart-btn" onclick="clickCart()">
+                          <i class="fa fa-shopping-cart"></i> В корзину
+                        </button>
+                      </div>
+                    </div>
+                  </div>
+                  <div id="slick-nav-2" class="products-slick-nav"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-4 col-xs-6">
+            <div class="shop">
+              <div class="shop-img">
+                <img src="./img/480004-rubli-22.jpg" alt="" />
+              </div>
+              <div class="shop-body">
+                <h3>Продажа</h3>
+                <a href="./Prodaza.html" class="cta-btn"
+                  >В раздел <i class="fa fa-arrow-circle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <div class="shop">
+              <div class="shop-img">
+                <img src="./img/samsungs22w.png" alt="" />
+              </div>
+              <div class="shop-body">
+                <h3>Смартфоны</h3>
+                <a href="./best-choice.html" class="cta-btn"
+                  >В раздел <i class="fa fa-arrow-circle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+          <div class="col-md-4 col-xs-6">
+            <div class="shop">
+              <div class="shop-img">
+                <img src="./img/maxresdefault.jpg" alt="" />
+              </div>
+              <div class="shop-body">
+                <h3>Аксессуары</h3>
+                <a href="./acsessuar.html" class="cta-btn"
+                  >В раздел <i class="fa fa-arrow-circle-right"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <div id="newsletter" class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col-md-12">
+            <div class="newsletter">
+              <p>Подпишитесь на <strong>новости</strong></p>
+              <form>
+                <input class="input" type="email" placeholder="Ваш Email" />
+                <button class="newsletter-btn">
+                  <i class="fa fa-envelope"></i> Подписаться
+                </button>
+              </form>
+              <ul class="newsletter-follow">
+                <li>
+                  <a href="#"><i class="fa fa-facebook"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-twitter"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-instagram"></i></a>
+                </li>
+                <li>
+                  <a href="#"><i class="fa fa-pinterest"></i></a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <footer id="footer">
+      <div class="section">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-3 col-xs-6">
+              <div class="footer">
+                <h3 class="footer-title">О нас</h3>
+                <p>Интернет-магазин смартфонов из всего мира</p>
+                <ul class="footer-links">
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-map-marker"></i>г. Ростов-на-Дону ул.
+                      Красноармейская</a
+                    >
+                  </li>
+                  <li>
+                    <a href="#"><i class="fa fa-phone"></i>+7 963-430-54-33</a>
+                  </li>
+                  <li>
+                    <a href="#"
+                      ><i class="fa fa-envelope-o"></i>posmartphony@email.com</a
+                    >
+                  </li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="footer">
+                <h3 class="footer-title">Категории</h3>
+                <ul class="footer-links">
+                  <li><a href="./best-choice.html">Лучшие предложения</a></li>
+                  <li><a href="#">Продажа телефонов</a></li>
+                  <li><a href="./china.html">Китай</a></li>
+                  <li><a href="./vietnam.html">Вьетнам</a></li>
+                  <li><a href="./gruzia.html">Грузия</a></li>
+                  <li><a href="#">Аксессуары</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="clearfix visible-xs"></div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="footer">
+                <h3 class="footer-title">Информация</h3>
+                <ul class="footer-links">
+                  <li><a href="#">О нас</a></li>
+                  <li><a href="#">Свяжитесь с нами</a></li>
+                  <li><a href="#">Политика конфиденциальности</a></li>
+                  <li><a href="#">Юридическая ифнормация</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="col-md-3 col-xs-6">
+              <div class="footer">
+                <h3 class="footer-title">Сервис</h3>
+                <ul class="footer-links">
+                  <li><a href="#">Мой аккаунт</a></li>
+                  <li><a href="#">В корзину</a></li>
+                  <li><a href="#">Избранное</a></li>
+                  <li><a href="#">Отследить заказ</a></li>
+                  <li><a href="#">Частые вопросы</a></li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/slick.min.js"></script>
+    <script src="js/nouislider.min.js"></script>
+    <script src="js/jquery.zoom.min.js"></script>
+    <script src="js/timer.js"></script>
+    <script src="js/prod.js"></script>
+    <script src="js/main.js"></script>
+  </body>
+</html>
