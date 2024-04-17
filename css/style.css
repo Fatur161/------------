@@ -493,6 +493,14 @@ textarea.input {
   background-image: url("../img/168_generated.jpg");
 }
 
+.about-link {
+  font-size: 18px;
+}
+
+.about-link:hover {
+  color: #000;
+}
+
 .hero-section__inner {
   display: flex;
   justify-content: space-between;
@@ -797,6 +805,10 @@ textarea.input {
   background-size: cover;
   background-position: center;
   background-repeat: no-repeat;
+}
+
+#hot-deal.card-d {
+  background-image: url("../img/discornt-bg.png");
 }
 
 .hot-deal {
